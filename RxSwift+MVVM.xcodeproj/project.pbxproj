@@ -80,6 +80,7 @@
 		224BBC0D21016409006F981D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2296A35321018AD20022933C /* ArticleCell.swift */,
 				224BBBFF210162EA006F981D /* Main.storyboard */,
 			);
 			path = Views;
@@ -89,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				224BBC1421017F40006F981D /* ArticlesViewModel.swift */,
-				2296A35321018AD20022933C /* ArticleCell.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
