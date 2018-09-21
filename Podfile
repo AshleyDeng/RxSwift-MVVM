@@ -12,7 +12,7 @@ target 'RxSwift+MVVM' do
   
   
   ### Culprits!!!
-  # Firstly, umcomment these pods and do `pod install` to trigger the error
+  # Firstly, umcomment these pods and run `pod install` to trigger the error
 #  pod 'AMScrollingNavbar'
 #  pod 'Mixpanel-swift'
 #  pod 'UPCarouselFlowLayout', :git => 'https://github.com/andre991/UPCarouselFlowLayout.git'
@@ -20,7 +20,7 @@ target 'RxSwift+MVVM' do
 end
 
 ### THE FIX!!!
-# Secondly, uncomment this script to fix the issue.
+# Secondly, uncomment this script and run `pod install` to fix the issue.
 # You might need to delete your workspace file, Pod folder and DerivedData to fix it.
 
 #post_install do |installer|
